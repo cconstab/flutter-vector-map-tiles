@@ -26,10 +26,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Atsign GPS demo',
+      title: 'Atsign Secure & Private GPS',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: const MyHomePage(title: 'Atsign GPS Demo'),
+      home: const MyHomePage(title: 'Atsign Secure & Private GPS'),
     );
   }
 }
@@ -183,13 +183,13 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car1,
-                              textAlign: TextAlign.center,
+                              " "+car1,
+                              textAlign: TextAlign.right,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
                           ],
@@ -204,12 +204,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car2,
+                              " "+car2,
                               textAlign: TextAlign.center,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
@@ -225,12 +225,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car3,
+                              " "+car3,
                               textAlign: TextAlign.center,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
@@ -246,12 +246,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car4,
+                              " "+car4,
                               textAlign: TextAlign.center,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
@@ -267,12 +267,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car5,
+                              " "+car5,
                               textAlign: TextAlign.center,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
@@ -288,12 +288,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             // ignore: prefer_const_constructors
                             Icon(
-                              Icons.location_pin,
+                              Icons.directions_car_filled,
                               color: Colors.red,
                               size: 40,
                             ),
                             Text(
-                              car6,
+                              " "+car6,
                               textAlign: TextAlign.center,
                               style: const TextStyle(fontWeight: FontWeight.w800,color: Colors.black),
                             ),
